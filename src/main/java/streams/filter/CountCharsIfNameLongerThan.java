@@ -1,8 +1,8 @@
-package streams;
+package streams.filter;
 
 import java.util.List;
 
-public class LongNameCounter {
+public class CountCharsIfNameLongerThan {
 
     public static long countLongNames(List<String> names) {
         return names.stream()
