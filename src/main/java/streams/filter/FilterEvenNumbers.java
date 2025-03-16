@@ -1,9 +1,9 @@
-package streams;
+package streams.filter;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class EvenNumberFilter {
+public class FilterEvenNumbers {
 
     public static List<Integer> filterEvenNumbers(List<Integer> numbers) {
         return numbers.stream()

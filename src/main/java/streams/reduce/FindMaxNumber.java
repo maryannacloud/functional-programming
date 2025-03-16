@@ -1,8 +1,8 @@
-package streams;
+package streams.reduce;
 
 import java.util.List;
 
-public class MaxNumberFinder {
+public class FindMaxNumber {
     public static int findMaxNumber(List<Integer> numbers) {
         return numbers.stream()
                 .reduce(Integer.MIN_VALUE, Integer::max);

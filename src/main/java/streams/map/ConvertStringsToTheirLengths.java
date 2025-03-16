@@ -1,4 +1,4 @@
-package streams;
+package streams.map;
 
 /*
  * Task: convert a list of Strings to their lengths
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StringToLength {
+public class ConvertStringsToTheirLengths {
 
     public static void main(String[] args) {
         List<String> listOfStrings =
